@@ -1,0 +1,16 @@
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\bin\Debug\net8.0-windows\konversi_suhu2.exe
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\bin\Debug\net8.0-windows\konversi_suhu2.deps.json
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\bin\Debug\net8.0-windows\konversi_suhu2.runtimeconfig.json
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\bin\Debug\net8.0-windows\konversi_suhu2.dll
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\bin\Debug\net8.0-windows\konversi_suhu2.pdb
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\obj\Debug\net8.0-windows\konversi_suhu2.Form1.resources
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\obj\Debug\net8.0-windows\konversi_suhu2.vbproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\obj\Debug\net8.0-windows\konversi_suhu2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\obj\Debug\net8.0-windows\konversi_suhu2.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\obj\Debug\net8.0-windows\konversi_suhu2.AssemblyInfo.vb
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\obj\Debug\net8.0-windows\konversi_suhu2.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\obj\Debug\net8.0-windows\konversi_suhu2.dll
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\obj\Debug\net8.0-windows\refint\konversi_suhu2.dll
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\obj\Debug\net8.0-windows\konversi_suhu2.pdb
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\obj\Debug\net8.0-windows\konversi_suhu2.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\konversi_suhu2\konversi_suhu2\obj\Debug\net8.0-windows\ref\konversi_suhu2.dll

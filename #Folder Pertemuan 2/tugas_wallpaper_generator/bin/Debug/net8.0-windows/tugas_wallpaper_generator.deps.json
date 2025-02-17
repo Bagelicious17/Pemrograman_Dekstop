@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "tugas_wallpaper_generator/1.0.0": {
+        "runtime": {
+          "tugas_wallpaper_generator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tugas_wallpaper_generator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,7 @@
+C:\Users\ASUS\source\repos\program_kalkulator\program_kalkulator\obj\Debug\net8.0-windows\program_kalkulator.txtInput.resources
+C:\Users\ASUS\source\repos\program_kalkulator\program_kalkulator\obj\Debug\net8.0-windows\program_kalkulator.vbproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\program_kalkulator\program_kalkulator\obj\Debug\net8.0-windows\program_kalkulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\program_kalkulator\program_kalkulator\obj\Debug\net8.0-windows\program_kalkulator.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\program_kalkulator\program_kalkulator\obj\Debug\net8.0-windows\program_kalkulator.AssemblyInfo.vb
+C:\Users\ASUS\source\repos\program_kalkulator\program_kalkulator\obj\Debug\net8.0-windows\program_kalkulator.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\program_kalkulator\program_kalkulator\obj\Debug\net8.0-windows\program_kalkulator.program_kalkulator.resources

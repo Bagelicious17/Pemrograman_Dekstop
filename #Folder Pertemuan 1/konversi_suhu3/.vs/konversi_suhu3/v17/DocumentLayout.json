@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\konversi_suhu3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1651E72-183F-4480-9F23-DB5F00728C5B}|konversi_suhu3\\konversi_suhu3.vbproj|c:\\users\\asus\\source\\repos\\konversi_suhu3\\konversi_suhu3\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E1651E72-183F-4480-9F23-DB5F00728C5B}|konversi_suhu3\\konversi_suhu3.vbproj|solutionrelative:konversi_suhu3\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1651E72-183F-4480-9F23-DB5F00728C5B}|konversi_suhu3\\konversi_suhu3.vbproj|c:\\users\\asus\\source\\repos\\konversi_suhu3\\konversi_suhu3\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E1651E72-183F-4480-9F23-DB5F00728C5B}|konversi_suhu3\\konversi_suhu3.vbproj|solutionrelative:konversi_suhu3\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\konversi_suhu3\\konversi_suhu3\\Form1.vb",
+              "RelativeDocumentMoniker": "konversi_suhu3\\Form1.vb",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\konversi_suhu3\\konversi_suhu3\\Form1.vb",
+              "RelativeToolTip": "konversi_suhu3\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-04T15:24:21.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\konversi_suhu3\\konversi_suhu3\\Form1.vb",
+              "RelativeDocumentMoniker": "konversi_suhu3\\Form1.vb",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\konversi_suhu3\\konversi_suhu3\\Form1.vb [Design]",
+              "RelativeToolTip": "konversi_suhu3\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-04T15:23:08.283Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

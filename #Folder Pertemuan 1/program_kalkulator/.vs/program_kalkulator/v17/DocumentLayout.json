@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\program_kalkulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{555DBCF1-D5AA-4DD8-A47F-AD879893DE39}|program_kalkulator\\program_kalkulator.vbproj|c:\\users\\asus\\source\\repos\\program_kalkulator\\program_kalkulator\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{555DBCF1-D5AA-4DD8-A47F-AD879893DE39}|program_kalkulator\\program_kalkulator.vbproj|solutionrelative:program_kalkulator\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555DBCF1-D5AA-4DD8-A47F-AD879893DE39}|program_kalkulator\\program_kalkulator.vbproj|c:\\users\\asus\\source\\repos\\program_kalkulator\\program_kalkulator\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{555DBCF1-D5AA-4DD8-A47F-AD879893DE39}|program_kalkulator\\program_kalkulator.vbproj|solutionrelative:program_kalkulator\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{555DBCF1-D5AA-4DD8-A47F-AD879893DE39}|program_kalkulator\\program_kalkulator.vbproj|c:\\users\\asus\\source\\repos\\program_kalkulator\\program_kalkulator\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{555DBCF1-D5AA-4DD8-A47F-AD879893DE39}|program_kalkulator\\program_kalkulator.vbproj|solutionrelative:program_kalkulator\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Application.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\program_kalkulator\\program_kalkulator\\My Project\\Application.Designer.vb",
+              "RelativeDocumentMoniker": "program_kalkulator\\My Project\\Application.Designer.vb",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\program_kalkulator\\program_kalkulator\\My Project\\Application.Designer.vb",
+              "RelativeToolTip": "program_kalkulator\\My Project\\Application.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-05T02:34:56.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\program_kalkulator\\program_kalkulator\\Form1.vb",
+              "RelativeDocumentMoniker": "program_kalkulator\\Form1.vb",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\program_kalkulator\\program_kalkulator\\Form1.vb",
+              "RelativeToolTip": "program_kalkulator\\Form1.vb",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAIwAUBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-04T16:39:58.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\program_kalkulator\\program_kalkulator\\Form1.vb",
+              "RelativeDocumentMoniker": "program_kalkulator\\Form1.vb",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\program_kalkulator\\program_kalkulator\\Form1.vb [Design]",
+              "RelativeToolTip": "program_kalkulator\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-04T16:26:36.08Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
