@@ -24,23 +24,25 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.lblReserve = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.lblDesc = New System.Windows.Forms.Label()
-        Me.lblName = New System.Windows.Forms.Label()
-        Me.tbName1 = New System.Windows.Forms.TextBox()
-        Me.tbName2 = New System.Windows.Forms.TextBox()
-        Me.lblName1 = New System.Windows.Forms.Label()
-        Me.lblName2 = New System.Windows.Forms.Label()
-        Me.lblEmail = New System.Windows.Forms.Label()
-        Me.tbEmail = New System.Windows.Forms.TextBox()
-        Me.lblPhone = New System.Windows.Forms.Label()
-        Me.tbPhone = New System.Windows.Forms.TextBox()
-        Me.cbTable1 = New System.Windows.Forms.CheckBox()
-        Me.cbTable2 = New System.Windows.Forms.CheckBox()
-        Me.cbTable3 = New System.Windows.Forms.CheckBox()
-        Me.lblTable = New System.Windows.Forms.Label()
-        Me.lblGuest = New System.Windows.Forms.Label()
         Me.numGuest = New System.Windows.Forms.NumericUpDown()
+        Me.lblGuest = New System.Windows.Forms.Label()
+        Me.lblTable = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cbTable3 = New System.Windows.Forms.CheckBox()
+        Me.cbTable2 = New System.Windows.Forms.CheckBox()
+        Me.cbTable1 = New System.Windows.Forms.CheckBox()
+        Me.tbPhone = New System.Windows.Forms.TextBox()
+        Me.lblPhone = New System.Windows.Forms.Label()
+        Me.tbEmail = New System.Windows.Forms.TextBox()
+        Me.lblEmail = New System.Windows.Forms.Label()
+        Me.lblName2 = New System.Windows.Forms.Label()
+        Me.lblName1 = New System.Windows.Forms.Label()
+        Me.tbName2 = New System.Windows.Forms.TextBox()
+        Me.tbName1 = New System.Windows.Forms.TextBox()
+        Me.lblName = New System.Windows.Forms.Label()
+        Me.lblDesc = New System.Windows.Forms.Label()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.Panel1.SuspendLayout()
         CType(Me.numGuest, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -57,6 +59,8 @@ Partial Class Form1
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.ComboBox3)
+        Me.Panel1.Controls.Add(Me.ComboBox2)
         Me.Panel1.Controls.Add(Me.numGuest)
         Me.Panel1.Controls.Add(Me.lblGuest)
         Me.Panel1.Controls.Add(Me.lblTable)
@@ -78,50 +82,108 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(718, 572)
         Me.Panel1.TabIndex = 1
         '
-        'lblDesc
+        'numGuest
         '
-        Me.lblDesc.AutoSize = True
-        Me.lblDesc.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDesc.Location = New System.Drawing.Point(19, 78)
-        Me.lblDesc.Name = "lblDesc"
-        Me.lblDesc.Size = New System.Drawing.Size(478, 25)
-        Me.lblDesc.TabIndex = 2
-        Me.lblDesc.Text = "please fill the form below to enable us serve you better"
+        Me.numGuest.Location = New System.Drawing.Point(133, 319)
+        Me.numGuest.Name = "numGuest"
+        Me.numGuest.Size = New System.Drawing.Size(120, 26)
+        Me.numGuest.TabIndex = 15
         '
-        'lblName
+        'lblGuest
         '
-        Me.lblName.AutoSize = True
-        Me.lblName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.Location = New System.Drawing.Point(27, 30)
-        Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(100, 25)
-        Me.lblName.TabIndex = 0
-        Me.lblName.Text = "Full Name"
+        Me.lblGuest.AutoSize = True
+        Me.lblGuest.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblGuest.Location = New System.Drawing.Point(27, 319)
+        Me.lblGuest.Name = "lblGuest"
+        Me.lblGuest.Size = New System.Drawing.Size(64, 25)
+        Me.lblGuest.TabIndex = 14
+        Me.lblGuest.Text = "Guest"
         '
-        'tbName1
+        'lblTable
         '
-        Me.tbName1.Location = New System.Drawing.Point(133, 31)
-        Me.tbName1.Name = "tbName1"
-        Me.tbName1.Size = New System.Drawing.Size(128, 26)
-        Me.tbName1.TabIndex = 1
+        Me.lblTable.AutoSize = True
+        Me.lblTable.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTable.Location = New System.Drawing.Point(27, 206)
+        Me.lblTable.Name = "lblTable"
+        Me.lblTable.Size = New System.Drawing.Size(62, 25)
+        Me.lblTable.TabIndex = 13
+        Me.lblTable.Text = "Table"
         '
-        'tbName2
+        'ComboBox1
         '
-        Me.tbName2.Location = New System.Drawing.Point(267, 31)
-        Me.tbName2.Name = "tbName2"
-        Me.tbName2.Size = New System.Drawing.Size(128, 26)
-        Me.tbName2.TabIndex = 2
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6"})
+        Me.ComboBox1.Location = New System.Drawing.Point(236, 209)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 28)
+        Me.ComboBox1.TabIndex = 12
+        Me.ComboBox1.Text = "How Many?"
         '
-        'lblName1
+        'cbTable3
         '
-        Me.lblName1.AutoSize = True
-        Me.lblName1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblName1.Location = New System.Drawing.Point(130, 60)
-        Me.lblName1.Name = "lblName1"
-        Me.lblName1.Size = New System.Drawing.Size(76, 17)
-        Me.lblName1.TabIndex = 3
-        Me.lblName1.Text = "First Name"
+        Me.cbTable3.AutoSize = True
+        Me.cbTable3.Location = New System.Drawing.Point(133, 266)
+        Me.cbTable3.Name = "cbTable3"
+        Me.cbTable3.Size = New System.Drawing.Size(106, 24)
+        Me.cbTable3.TabIndex = 11
+        Me.cbTable3.Text = "20 person"
+        Me.cbTable3.UseVisualStyleBackColor = True
+        '
+        'cbTable2
+        '
+        Me.cbTable2.AutoSize = True
+        Me.cbTable2.Location = New System.Drawing.Point(133, 236)
+        Me.cbTable2.Name = "cbTable2"
+        Me.cbTable2.Size = New System.Drawing.Size(97, 24)
+        Me.cbTable2.TabIndex = 10
+        Me.cbTable2.Text = "8 person"
+        Me.cbTable2.UseVisualStyleBackColor = True
+        '
+        'cbTable1
+        '
+        Me.cbTable1.AutoSize = True
+        Me.cbTable1.Location = New System.Drawing.Point(133, 206)
+        Me.cbTable1.Name = "cbTable1"
+        Me.cbTable1.Size = New System.Drawing.Size(97, 24)
+        Me.cbTable1.TabIndex = 9
+        Me.cbTable1.Text = "4 person"
+        Me.cbTable1.UseVisualStyleBackColor = True
+        '
+        'tbPhone
+        '
+        Me.tbPhone.Location = New System.Drawing.Point(133, 151)
+        Me.tbPhone.Name = "tbPhone"
+        Me.tbPhone.Size = New System.Drawing.Size(262, 26)
+        Me.tbPhone.TabIndex = 8
+        '
+        'lblPhone
+        '
+        Me.lblPhone.AutoSize = True
+        Me.lblPhone.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPhone.Location = New System.Drawing.Point(27, 150)
+        Me.lblPhone.Name = "lblPhone"
+        Me.lblPhone.Size = New System.Drawing.Size(69, 25)
+        Me.lblPhone.TabIndex = 7
+        Me.lblPhone.Text = "Phone"
+        '
+        'tbEmail
+        '
+        Me.tbEmail.ForeColor = System.Drawing.SystemColors.ScrollBar
+        Me.tbEmail.Location = New System.Drawing.Point(133, 95)
+        Me.tbEmail.Name = "tbEmail"
+        Me.tbEmail.Size = New System.Drawing.Size(262, 26)
+        Me.tbEmail.TabIndex = 6
+        Me.tbEmail.Text = "ex: myname@example.com"
+        '
+        'lblEmail
+        '
+        Me.lblEmail.AutoSize = True
+        Me.lblEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblEmail.Location = New System.Drawing.Point(27, 96)
+        Me.lblEmail.Name = "lblEmail"
+        Me.lblEmail.Size = New System.Drawing.Size(60, 25)
+        Me.lblEmail.TabIndex = 5
+        Me.lblEmail.Text = "Email"
         '
         'lblName2
         '
@@ -134,108 +196,70 @@ Partial Class Form1
         Me.lblName2.TabIndex = 4
         Me.lblName2.Text = "Last Name"
         '
-        'lblEmail
+        'lblName1
         '
-        Me.lblEmail.AutoSize = True
-        Me.lblEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblEmail.Location = New System.Drawing.Point(27, 96)
-        Me.lblEmail.Name = "lblEmail"
-        Me.lblEmail.Size = New System.Drawing.Size(60, 25)
-        Me.lblEmail.TabIndex = 5
-        Me.lblEmail.Text = "Email"
+        Me.lblName1.AutoSize = True
+        Me.lblName1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblName1.Location = New System.Drawing.Point(130, 60)
+        Me.lblName1.Name = "lblName1"
+        Me.lblName1.Size = New System.Drawing.Size(76, 17)
+        Me.lblName1.TabIndex = 3
+        Me.lblName1.Text = "First Name"
         '
-        'tbEmail
+        'tbName2
         '
-        Me.tbEmail.ForeColor = System.Drawing.SystemColors.ScrollBar
-        Me.tbEmail.Location = New System.Drawing.Point(133, 95)
-        Me.tbEmail.Name = "tbEmail"
-        Me.tbEmail.Size = New System.Drawing.Size(262, 26)
-        Me.tbEmail.TabIndex = 6
-        Me.tbEmail.Text = "ex: myname@example.com"
+        Me.tbName2.Location = New System.Drawing.Point(267, 31)
+        Me.tbName2.Name = "tbName2"
+        Me.tbName2.Size = New System.Drawing.Size(128, 26)
+        Me.tbName2.TabIndex = 2
         '
-        'lblPhone
+        'tbName1
         '
-        Me.lblPhone.AutoSize = True
-        Me.lblPhone.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPhone.Location = New System.Drawing.Point(27, 150)
-        Me.lblPhone.Name = "lblPhone"
-        Me.lblPhone.Size = New System.Drawing.Size(69, 25)
-        Me.lblPhone.TabIndex = 7
-        Me.lblPhone.Text = "Phone"
+        Me.tbName1.Location = New System.Drawing.Point(133, 31)
+        Me.tbName1.Name = "tbName1"
+        Me.tbName1.Size = New System.Drawing.Size(128, 26)
+        Me.tbName1.TabIndex = 1
         '
-        'tbPhone
+        'lblName
         '
-        Me.tbPhone.Location = New System.Drawing.Point(133, 151)
-        Me.tbPhone.Name = "tbPhone"
-        Me.tbPhone.Size = New System.Drawing.Size(262, 26)
-        Me.tbPhone.TabIndex = 8
+        Me.lblName.AutoSize = True
+        Me.lblName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName.Location = New System.Drawing.Point(27, 30)
+        Me.lblName.Name = "lblName"
+        Me.lblName.Size = New System.Drawing.Size(100, 25)
+        Me.lblName.TabIndex = 0
+        Me.lblName.Text = "Full Name"
         '
-        'cbTable1
+        'lblDesc
         '
-        Me.cbTable1.AutoSize = True
-        Me.cbTable1.Location = New System.Drawing.Point(133, 206)
-        Me.cbTable1.Name = "cbTable1"
-        Me.cbTable1.Size = New System.Drawing.Size(97, 24)
-        Me.cbTable1.TabIndex = 9
-        Me.cbTable1.Text = "4 person"
-        Me.cbTable1.UseVisualStyleBackColor = True
+        Me.lblDesc.AutoSize = True
+        Me.lblDesc.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDesc.Location = New System.Drawing.Point(19, 78)
+        Me.lblDesc.Name = "lblDesc"
+        Me.lblDesc.Size = New System.Drawing.Size(478, 25)
+        Me.lblDesc.TabIndex = 2
+        Me.lblDesc.Text = "please fill the form below to enable us serve you better"
         '
-        'cbTable2
+        'ComboBox2
         '
-        Me.cbTable2.AutoSize = True
-        Me.cbTable2.Location = New System.Drawing.Point(236, 206)
-        Me.cbTable2.Name = "cbTable2"
-        Me.cbTable2.Size = New System.Drawing.Size(97, 24)
-        Me.cbTable2.TabIndex = 10
-        Me.cbTable2.Text = "8 person"
-        Me.cbTable2.UseVisualStyleBackColor = True
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6"})
+        Me.ComboBox2.Location = New System.Drawing.Point(236, 234)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(121, 28)
+        Me.ComboBox2.TabIndex = 16
+        Me.ComboBox2.Text = "How Many?"
         '
-        'cbTable3
+        'ComboBox3
         '
-        Me.cbTable3.AutoSize = True
-        Me.cbTable3.Location = New System.Drawing.Point(339, 206)
-        Me.cbTable3.Name = "cbTable3"
-        Me.cbTable3.Size = New System.Drawing.Size(106, 24)
-        Me.cbTable3.TabIndex = 11
-        Me.cbTable3.Text = "20 person"
-        Me.cbTable3.UseVisualStyleBackColor = True
-        '
-        'lblTable
-        '
-        Me.lblTable.AutoSize = True
-        Me.lblTable.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTable.Location = New System.Drawing.Point(27, 206)
-        Me.lblTable.Name = "lblTable"
-        Me.lblTable.Size = New System.Drawing.Size(62, 25)
-        Me.lblTable.TabIndex = 13
-        Me.lblTable.Text = "Table"
-        '
-        'lblGuest
-        '
-        Me.lblGuest.AutoSize = True
-        Me.lblGuest.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblGuest.Location = New System.Drawing.Point(27, 261)
-        Me.lblGuest.Name = "lblGuest"
-        Me.lblGuest.Size = New System.Drawing.Size(64, 25)
-        Me.lblGuest.TabIndex = 14
-        Me.lblGuest.Text = "Guest"
-        '
-        'numGuest
-        '
-        Me.numGuest.Location = New System.Drawing.Point(133, 261)
-        Me.numGuest.Name = "numGuest"
-        Me.numGuest.Size = New System.Drawing.Size(120, 26)
-        Me.numGuest.TabIndex = 15
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6"})
-        Me.ComboBox1.Location = New System.Drawing.Point(451, 202)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 28)
-        Me.ComboBox1.TabIndex = 12
-        Me.ComboBox1.Text = "How Many?"
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6"})
+        Me.ComboBox3.Location = New System.Drawing.Point(236, 264)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(121, 28)
+        Me.ComboBox3.TabIndex = 17
+        Me.ComboBox3.Text = "How Many?"
         '
         'Form1
         '
@@ -274,4 +298,6 @@ Partial Class Form1
     Friend WithEvents numGuest As NumericUpDown
     Friend WithEvents lblGuest As Label
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents ComboBox2 As ComboBox
 End Class

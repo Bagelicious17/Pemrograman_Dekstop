@@ -1,7 +1,22 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\Pertemuan 3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0833BF2-207F-46D7-9FCA-BE3FA21749C3}|Form Restoran\\Form Restoran.vbproj|d:\\kuliah\\sem4\\pemrograman dekstop\\github individu\\pertemuan 3\\form restoran\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F0833BF2-207F-46D7-9FCA-BE3FA21749C3}|Form Restoran\\Form Restoran.vbproj|solutionrelative:form restoran\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0833BF2-207F-46D7-9FCA-BE3FA21749C3}|Form Restoran\\Form Restoran.vbproj|d:\\kuliah\\sem4\\pemrograman dekstop\\github individu\\pertemuan 3\\form restoran\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F0833BF2-207F-46D7-9FCA-BE3FA21749C3}|Form Restoran\\Form Restoran.vbproj|solutionrelative:form restoran\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Form Restoran||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0833BF2-207F-46D7-9FCA-BE3FA21749C3}|Form Restoran\\Form Restoran.vbproj|d:\\kuliah\\sem4\\pemrograman dekstop\\github individu\\pertemuan 3\\form restoran\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|eda661ea-dc61-4750-b3a5-f6e9c74060f5"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +24,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form Restoran",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\Pertemuan 3\\Form Restoran\\Form Restoran.vbproj",
+              "RelativeDocumentMoniker": "Form Restoran\\Form Restoran.vbproj",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\Pertemuan 3\\Form Restoran\\Form Restoran.vbproj",
+              "RelativeToolTip": "Form Restoran\\Form Restoran.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-20T08:08:37.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\Pertemuan 3\\Form Restoran\\Form1.vb",
+              "RelativeDocumentMoniker": "Form Restoran\\Form1.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\Pertemuan 3\\Form Restoran\\Form1.vb [Design]",
+              "RelativeToolTip": "Form Restoran\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-20T08:09:54.21Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\Pertemuan 3\\Form Restoran\\Form1.vb",
+              "RelativeDocumentMoniker": "Form Restoran\\Form1.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\Pertemuan 3\\Form Restoran\\Form1.vb",
+              "RelativeToolTip": "Form Restoran\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-20T08:03:17.896Z",
+              "EditorCaption": ""
             }
           ]
         }
