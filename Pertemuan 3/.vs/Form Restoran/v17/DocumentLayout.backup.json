@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\Pertemuan 3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0833BF2-207F-46D7-9FCA-BE3FA21749C3}|Form Restoran\\Form Restoran.vbproj|d:\\kuliah\\sem4\\pemrograman dekstop\\github individu\\pertemuan 3\\form restoran\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F0833BF2-207F-46D7-9FCA-BE3FA21749C3}|Form Restoran\\Form Restoran.vbproj|solutionrelative:form restoran\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\Pertemuan 3\\Form Restoran\\Form1.vb",
+              "RelativeDocumentMoniker": "Form Restoran\\Form1.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\Pertemuan 3\\Form Restoran\\Form1.vb [Design]",
+              "RelativeToolTip": "Form Restoran\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-20T04:31:53.945Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

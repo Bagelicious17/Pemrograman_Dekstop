@@ -1,0 +1,24 @@
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\bin\Debug\Form Restoran.exe.config
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\bin\Debug\Form Restoran.exe
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\bin\Debug\Form Restoran.pdb
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\bin\Debug\Form Restoran.xml
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\obj\Debug\Form Restoran.vbproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\obj\Debug\Form_Restoran.Form1.resources
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\obj\Debug\Form_Restoran.Resources.resources
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\obj\Debug\Form Restoran.vbproj.GenerateResource.cache
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\obj\Debug\Form Restoran.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\obj\Debug\Form Restoran.exe
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\obj\Debug\Form Restoran.xml
+C:\Users\ASUS\Downloads\Whack a Mole!-20250216T034009Z-001\Form Restoran\Form Restoran\obj\Debug\Form Restoran.pdb
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\bin\Debug\Form Restoran.exe.config
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\bin\Debug\Form Restoran.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\bin\Debug\Form Restoran.pdb
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\bin\Debug\Form Restoran.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\obj\Debug\Form Restoran.vbproj.AssemblyReference.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\obj\Debug\Form_Restoran.Form1.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\obj\Debug\Form_Restoran.Resources.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\obj\Debug\Form Restoran.vbproj.GenerateResource.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\obj\Debug\Form Restoran.vbproj.CoreCompileInputs.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\obj\Debug\Form Restoran.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\obj\Debug\Form Restoran.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\Pertemuan 3\Form Restoran\obj\Debug\Form Restoran.pdb
