@@ -1,0 +1,12 @@
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\bin\Debug\Utility Text Editor.exe.config
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\bin\Debug\Utility Text Editor.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\bin\Debug\Utility Text Editor.pdb
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\bin\Debug\Utility Text Editor.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\obj\Debug\Utility Text Editor.vbproj.AssemblyReference.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\obj\Debug\Utility_Text_Editor.Form1.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\obj\Debug\Utility_Text_Editor.Resources.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\obj\Debug\Utility Text Editor.vbproj.GenerateResource.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\obj\Debug\Utility Text Editor.vbproj.CoreCompileInputs.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\obj\Debug\Utility Text Editor.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\obj\Debug\Utility Text Editor.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 4\Utility Text Editor\Utility Text Editor\obj\Debug\Utility Text Editor.pdb
