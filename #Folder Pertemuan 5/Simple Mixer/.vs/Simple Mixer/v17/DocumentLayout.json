@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\#Folder Pertemuan 5\\Simple Mixer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A430054-3B8F-4C93-873A-EF1DAE2AEB65}|Simple Mixer\\Simple Mixer.vbproj|d:\\kuliah\\sem4\\pemrograman dekstop\\github individu\\#folder pertemuan 5\\simple mixer\\simple mixer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3A430054-3B8F-4C93-873A-EF1DAE2AEB65}|Simple Mixer\\Simple Mixer.vbproj|solutionrelative:simple mixer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A430054-3B8F-4C93-873A-EF1DAE2AEB65}|Simple Mixer\\Simple Mixer.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\#Folder Pertemuan 5\\Simple Mixer\\simple mixer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3A430054-3B8F-4C93-873A-EF1DAE2AEB65}|Simple Mixer\\Simple Mixer.vbproj|solutionrelative:simple mixer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\#Folder Pertemuan 5\\Simple Mixer\\Simple Mixer\\Form1.vb",
+              "RelativeDocumentMoniker": "Simple Mixer\\Form1.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\#Folder Pertemuan 5\\Simple Mixer\\Simple Mixer\\Form1.vb",
+              "RelativeToolTip": "Simple Mixer\\Form1.vb",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAlwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-02T15:54:15.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\#Folder Pertemuan 5\\Simple Mixer\\Simple Mixer\\Form1.vb",
+              "RelativeDocumentMoniker": "Simple Mixer\\Form1.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\#Folder Pertemuan 5\\Simple Mixer\\Simple Mixer\\Form1.vb [Design]",
+              "RelativeToolTip": "Simple Mixer\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-02T15:33:41.069Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
