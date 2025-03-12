@@ -1,0 +1,16 @@
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.vbproj.AssemblyReference.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.Login.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.Langganan.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.Laporan_Pendapatan_Parkir.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.Resources.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.UbahProfil.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.Utama.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.vbproj.GenerateResource.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.vbproj.CoreCompileInputs.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\bin\Debug\TugasPengamatan2.exe.config
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\bin\Debug\TugasPengamatan2.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\bin\Debug\TugasPengamatan2.pdb
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\bin\Debug\TugasPengamatan2.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\TugasPengamatan2\TugasPengamatan2\obj\Debug\TugasPengamatan2.pdb
