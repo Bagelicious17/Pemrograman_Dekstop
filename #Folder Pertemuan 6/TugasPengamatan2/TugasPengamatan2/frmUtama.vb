@@ -1,4 +1,4 @@
-﻿Public Class Utama
+﻿Public Class frmUtama
     Private Sub Label2_Click(sender As Object, e As EventArgs)
 
     End Sub
@@ -8,7 +8,7 @@
     End Sub
 
     Private Sub LogOutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LogOutToolStripMenuItem.Click
-        Login.Show()
+        frmLogin.Show()
         Me.Hide()
     End Sub
 
@@ -27,8 +27,8 @@
         Me.Hide()
     End Sub
 
-    Private Sub btnKeluar_Click(sender As Object, e As EventArgs) Handles btnKeluar.Click
-        Login.Show()
+    Private Sub btnKeluar_Click(sender As Object, e As EventArgs)
+        frmLogin.Show()
         Me.Hide()
     End Sub
 End Class
