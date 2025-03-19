@@ -1,4 +1,4 @@
-﻿Public Class Langganan
+﻿Public Class frmLangganan
     Private Sub lblNamaPelanggan_Click(sender As Object, e As EventArgs) Handles lblNamaPelanggan.Click
 
     End Sub

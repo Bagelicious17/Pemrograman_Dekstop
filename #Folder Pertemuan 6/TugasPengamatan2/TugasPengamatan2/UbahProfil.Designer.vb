@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class UbahProfil
+Partial Class frmProfil
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -102,7 +102,7 @@ Partial Class UbahProfil
         Me.btnTutup.Text = "Tutup"
         Me.btnTutup.UseVisualStyleBackColor = True
         '
-        'UbahProfil
+        'frmProfil
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -115,7 +115,7 @@ Partial Class UbahProfil
         Me.Controls.Add(Me.lblKetikLgi)
         Me.Controls.Add(Me.lblNewPW)
         Me.Controls.Add(Me.lblUsername)
-        Me.Name = "UbahProfil"
+        Me.Name = "frmProfil"
         Me.Text = "UbahProfil"
         Me.ResumeLayout(False)
         Me.PerformLayout()

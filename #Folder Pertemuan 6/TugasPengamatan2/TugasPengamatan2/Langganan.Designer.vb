@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Langganan
+Partial Class frmLangganan
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -196,7 +196,7 @@ Partial Class Langganan
         Me.btnTutup.Text = "Tutup"
         Me.btnTutup.UseVisualStyleBackColor = True
         '
-        'Langganan
+        'frmLangganan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -218,7 +218,7 @@ Partial Class Langganan
         Me.Controls.Add(Me.lblNomorPlat)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.lblNamaPelanggan)
-        Me.Name = "Langganan"
+        Me.Name = "frmLangganan"
         Me.Text = "Langganan"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
