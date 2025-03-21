@@ -25,11 +25,11 @@ Partial Class frmProfil
         Me.lblUsername = New System.Windows.Forms.Label()
         Me.lblNewPW = New System.Windows.Forms.Label()
         Me.lblKetikLgi = New System.Windows.Forms.Label()
-        Me.tbUsername = New System.Windows.Forms.TextBox()
-        Me.tbNewPW = New System.Windows.Forms.TextBox()
-        Me.tbKetikLgi = New System.Windows.Forms.TextBox()
-        Me.btnSimpan = New System.Windows.Forms.Button()
-        Me.btnTutup = New System.Windows.Forms.Button()
+        Me.txtUsername = New System.Windows.Forms.TextBox()
+        Me.txtPassword = New System.Windows.Forms.TextBox()
+        Me.txtRetype = New System.Windows.Forms.TextBox()
+        Me.btnSave = New System.Windows.Forms.Button()
+        Me.btnClose = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblUsername
@@ -63,60 +63,60 @@ Partial Class frmProfil
         Me.lblKetikLgi.TabIndex = 2
         Me.lblKetikLgi.Text = "ketik lagi"
         '
-        'tbUsername
+        'txtUsername
         '
-        Me.tbUsername.Location = New System.Drawing.Point(221, 73)
-        Me.tbUsername.Name = "tbUsername"
-        Me.tbUsername.Size = New System.Drawing.Size(301, 26)
-        Me.tbUsername.TabIndex = 3
+        Me.txtUsername.Location = New System.Drawing.Point(221, 73)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.Size = New System.Drawing.Size(301, 26)
+        Me.txtUsername.TabIndex = 3
         '
-        'tbNewPW
+        'txtPassword
         '
-        Me.tbNewPW.Location = New System.Drawing.Point(221, 128)
-        Me.tbNewPW.Name = "tbNewPW"
-        Me.tbNewPW.Size = New System.Drawing.Size(301, 26)
-        Me.tbNewPW.TabIndex = 4
+        Me.txtPassword.Location = New System.Drawing.Point(221, 128)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(301, 26)
+        Me.txtPassword.TabIndex = 4
         '
-        'tbKetikLgi
+        'txtRetype
         '
-        Me.tbKetikLgi.Location = New System.Drawing.Point(221, 189)
-        Me.tbKetikLgi.Name = "tbKetikLgi"
-        Me.tbKetikLgi.Size = New System.Drawing.Size(301, 26)
-        Me.tbKetikLgi.TabIndex = 5
+        Me.txtRetype.Location = New System.Drawing.Point(221, 189)
+        Me.txtRetype.Name = "txtRetype"
+        Me.txtRetype.Size = New System.Drawing.Size(301, 26)
+        Me.txtRetype.TabIndex = 5
         '
-        'btnSimpan
+        'btnSave
         '
-        Me.btnSimpan.Location = New System.Drawing.Point(300, 248)
-        Me.btnSimpan.Name = "btnSimpan"
-        Me.btnSimpan.Size = New System.Drawing.Size(103, 49)
-        Me.btnSimpan.TabIndex = 6
-        Me.btnSimpan.Text = "Simpan"
-        Me.btnSimpan.UseVisualStyleBackColor = True
+        Me.btnSave.Location = New System.Drawing.Point(300, 248)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(103, 49)
+        Me.btnSave.TabIndex = 6
+        Me.btnSave.Text = "Simpan"
+        Me.btnSave.UseVisualStyleBackColor = True
         '
-        'btnTutup
+        'btnClose
         '
-        Me.btnTutup.Location = New System.Drawing.Point(419, 248)
-        Me.btnTutup.Name = "btnTutup"
-        Me.btnTutup.Size = New System.Drawing.Size(103, 49)
-        Me.btnTutup.TabIndex = 7
-        Me.btnTutup.Text = "Tutup"
-        Me.btnTutup.UseVisualStyleBackColor = True
+        Me.btnClose.Location = New System.Drawing.Point(419, 248)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(103, 49)
+        Me.btnClose.TabIndex = 7
+        Me.btnClose.Text = "Tutup"
+        Me.btnClose.UseVisualStyleBackColor = True
         '
         'frmProfil
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(602, 335)
-        Me.Controls.Add(Me.btnTutup)
-        Me.Controls.Add(Me.btnSimpan)
-        Me.Controls.Add(Me.tbKetikLgi)
-        Me.Controls.Add(Me.tbNewPW)
-        Me.Controls.Add(Me.tbUsername)
+        Me.Controls.Add(Me.btnClose)
+        Me.Controls.Add(Me.btnSave)
+        Me.Controls.Add(Me.txtRetype)
+        Me.Controls.Add(Me.txtPassword)
+        Me.Controls.Add(Me.txtUsername)
         Me.Controls.Add(Me.lblKetikLgi)
         Me.Controls.Add(Me.lblNewPW)
         Me.Controls.Add(Me.lblUsername)
         Me.Name = "frmProfil"
-        Me.Text = "UbahProfil"
+        Me.Text = "Form Profil"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -125,9 +125,9 @@ Partial Class frmProfil
     Friend WithEvents lblUsername As Label
     Friend WithEvents lblNewPW As Label
     Friend WithEvents lblKetikLgi As Label
-    Friend WithEvents tbUsername As TextBox
-    Friend WithEvents tbNewPW As TextBox
-    Friend WithEvents tbKetikLgi As TextBox
-    Friend WithEvents btnSimpan As Button
-    Friend WithEvents btnTutup As Button
+    Friend WithEvents txtUsername As TextBox
+    Friend WithEvents txtPassword As TextBox
+    Friend WithEvents txtRetype As TextBox
+    Friend WithEvents btnSave As Button
+    Friend WithEvents btnClose As Button
 End Class

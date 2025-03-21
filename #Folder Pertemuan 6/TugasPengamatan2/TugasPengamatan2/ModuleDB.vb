@@ -15,7 +15,7 @@ Module ModuleDB
         myStrCon.UserID = "root"
         myStrCon.Server = "localhost"
         myStrCon.Password = ""
-        myStrCon.Database = "test" 'sesuaikan nama databasenya
+        myStrCon.Database = "tugas_progdes" 'sesuaikan nama databasenya
         myConn = New MySqlConnection(myStrCon.ToString)
     End Sub
 
