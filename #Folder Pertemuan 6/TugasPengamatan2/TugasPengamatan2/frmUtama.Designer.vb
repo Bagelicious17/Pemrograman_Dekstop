@@ -33,6 +33,7 @@ Partial Class frmUtama
         Me.ColJenis = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Id = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.Delete = New System.Windows.Forms.ToolStripMenuItem()
         Me.lblInformasi = New System.Windows.Forms.Label()
         Me.lblTgl = New System.Windows.Forms.Label()
         Me.lblJam = New System.Windows.Forms.Label()
@@ -57,7 +58,6 @@ Partial Class frmUtama
         Me.lblPlat = New System.Windows.Forms.Label()
         Me.lblHarga = New System.Windows.Forms.Label()
         Me.pnlHarga = New System.Windows.Forms.Panel()
-        Me.Delete = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.dataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
@@ -146,8 +146,14 @@ Partial Class frmUtama
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Delete})
         Me.ContextMenuStrip1.Name = "Delete"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(245, 69)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(245, 36)
         Me.ContextMenuStrip1.Text = "Delete"
+        '
+        'Delete
+        '
+        Me.Delete.Name = "Delete"
+        Me.Delete.Size = New System.Drawing.Size(244, 32)
+        Me.Delete.Text = "ToolStripMenuItem1"
         '
         'lblInformasi
         '
@@ -351,12 +357,6 @@ Partial Class frmUtama
         Me.pnlHarga.Name = "pnlHarga"
         Me.pnlHarga.Size = New System.Drawing.Size(276, 93)
         Me.pnlHarga.TabIndex = 23
-        '
-        'Delete
-        '
-        Me.Delete.Name = "Delete"
-        Me.Delete.Size = New System.Drawing.Size(244, 32)
-        Me.Delete.Text = "ToolStripMenuItem1"
         '
         'frmUtama
         '

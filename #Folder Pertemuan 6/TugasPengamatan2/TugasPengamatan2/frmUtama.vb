@@ -82,7 +82,8 @@ myDataReader("jml").ToString & ", "
             myConn.Open()
         End If
         If e.KeyCode = Keys.Return Then
-            sql = "select * from tblparkir where no_plat='" & txtNoPlat.Text.ToUpper & "' and waktu_keluar is null and DATE(`waktu_masuk`) = CURDATE()"
+            sql = "select * from tblparkir where no_plat='" & txtNoPlat.Text.ToUpper &
+           "' and waktu_keluar is null and DATE(`waktu_masuk`) = CURDATE()"
             If myCommand Is Nothing Then
                 myCommand = New MySqlCommand(sql, myConn)
             Else
@@ -90,50 +91,52 @@ myDataReader("jml").ToString & ", "
             End If
             Dim hasil1 As MySqlDataReader = myCommand.ExecuteReader()
             If hasil1.HasRows Then 'kalau sudah ada, update jadi keluar
-                If MessageBox.Show("Keluar dari Parkir?", "Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = Windows.Forms.DialogResult.Yes Then hasil1.Read()
-                jns = hasil1("jenis").ToString
-                nomor = hasil1("id").ToString
-                If jns = "Motor" Then
-                    harga = 2000
-                ElseIf jns = "Mobil" Or jns = "Taksi/Umum" Then
-                    harga = 3000
-                ElseIf jns = "Sepeda" Then
-                    harga = 1000
-                ElseIf jns = "Bus/Truk" Then
-                    harga = 4000
+                If MessageBox.Show("Keluar dari Parkir?", "Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = Windows.Forms.DialogResult.Yes Then
+                    hasil1.Read()
+                    jns = hasil1("jenis").ToString
+                    nomor = hasil1("id").ToString
+                    If jns = "Motor" Then
+                        harga = 2000
+                    ElseIf jns = "Mobil" Or jns = "Taksi/Umum" Then
+                        harga = 3000
+                    ElseIf jns = "Sepeda" Then
+                        harga = 1000
+                    ElseIf jns = "Bus/Truk" Then
+                        harga = 4000
+                    End If
+                    If hasil1.IsClosed = False Then
+                        hasil1.Close()
+                    End If
+                    sql = "update tblparkir set waktu_keluar = CURRENT_TIMESTAMP(), harga = IF(ceil((UNIX_TIMESTAMP(waktu_keluar) - UNIX_TIMESTAMP(waktu_masuk))/60/60)>1,ceil((UNIX_TIMESTAMP(waktu_keluar) - UNIX_TIMESTAMP(waktu_masuk))/60/60)*" & Str(harga) & "," & Str(harga) & ") where id = " & nomor
+                    myCommand.CommandText = sql
+                    myCommand.ExecuteNonQuery()
+                    sql = "select * from tblparkir where id = " & nomor
+                    myCommand.CommandText = sql
+                    hasil1 = myCommand.ExecuteReader
+                    hasil1.Read()
+                    lblHarga.Text = "Rp. " & hasil1("harga").ToString
+                    If hasil1.IsClosed = False Then
+                        hasil1.Close()
+                    End If
+                    MsgBox("Sukses Keluar!")
+                    jns = String.Empty
                 End If
+            Else 'kalau belum ada masukkan baru
+                If jns = String.Empty Then
+                    MsgBox("Masukan jenis kendaraan berikut:" & vbCrLf & lblJenis.Text)
+                    hasil1.Close()
+                    Exit Sub
+                End If
+                sql = "insert into tblparkir(no_plat,jenis,user) values ('" & txtNoPlat.Text.ToUpper & "','" & lblInfoJenis.Text & "','" & pengguna & "')"
                 If hasil1.IsClosed = False Then
                     hasil1.Close()
                 End If
-                sql = "update tblparkir set waktu_keluar = CURRENT_TIMESTAMP(), harga = IF(ceil((UNIX_TIMESTAMP(waktu_keluar) - UNIX_TIMESTAMP(waktu_masuk))/60/60)>1,ceil((UNIX_TIMESTAMP(waktu_keluar) - UNIX_TIMESTAMP(waktu_masuk))/60/60)*" & Str(harga) & "," & Str(harga) & ") where id = " & nomor
                 myCommand.CommandText = sql
                 myCommand.ExecuteNonQuery()
-                sql = "select * from tblparkir where id = " & nomor
-                myCommand.CommandText = sql
-                hasil1 = myCommand.ExecuteReader
-                hasil1.Read()
-                lblHarga.Text = "Rp. " & hasil1("harga").ToString
-                If hasil1.IsClosed = False Then
-                    hasil1.Close()
-                End If
-                MsgBox("Sukses Keluar!")
                 jns = String.Empty
             End If
-        Else 'kalau belum ada masukkan baru
-            If jns = String.Empty Then
-                MsgBox("Masukan jenis kendaraan berikut:" & vbCrLf & lblJenis.Text)
-                hasil1.Close()
-                Exit Sub
-            End If
-            sql = "insert into tblparkir(no_plat,jenis,user) values ('" & txtNoPlat.Text.ToUpper & "','" & lblInfoJenis.Text & "','" & pengguna & "')"
-            If hasil1.IsClosed = False Then
-                hasil1.Close()
-            End If
-            myCommand.CommandText = sql
-            myCommand.ExecuteNonQuery()
-            jns = String.Empty
+            lblPlat.Text = txtNoPlat.Text.ToUpper
         End If
-        lblPlat.Text = txtNoPlat.Text.ToUpper
         RefreshGrid()
         HitungJumlah()
         If myConn.State = ConnectionState.Open Then
@@ -141,7 +144,9 @@ myDataReader("jml").ToString & ", "
         End If
     End Sub
 
-    Private Sub LaporanPendapatanToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LaporanPendapatanToolStripMenuItem.Click
+
+
+    Private Sub LaporanPendapatanToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LaporanToolStripMenuItem.Click
         Dim sql As String = "select sum(harga) from tblparkir where DATE(waktu_masuk)
 = CURDATE() and DATE(waktu_keluar) = CURDATE()"
         If myConn.State = ConnectionState.Closed Then
@@ -173,15 +178,7 @@ myDataReader("jml").ToString & ", "
         frmLogin.ShowDialog()
     End Sub
 
-    Private Sub ProfilToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProfilToolStripMenuItem1.Click
-        frmProfil.ShowDialog()
-    End Sub
-
-    Private Sub DaftarKendaraanToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DaftarKendaraanToolStripMenuItem.Click
-        frmLangganan.Show()
-    End Sub
-
-    Private Sub DeleteToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DeleteToolStripMenuItem.Click
+    Private Sub DeleteToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Delete.Click
         If MessageBox.Show("Delete this record?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.Yes Then
             Dim sql As String = "delete from tblparkir where id=" &
            dataGridView1.CurrentRow.Cells(5).Value.ToString
@@ -208,19 +205,10 @@ myDataReader("jml").ToString & ", "
         lblPlat.Text = dataGridView1.Rows(e.RowIndex).Cells(0).Value
     End Sub
 
-
-    Private Sub LogOutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LogOutToolStripMenuItem.Click
-        frmLogin.Show()
-        Me.Hide()
-    End Sub
-
-    Private Sub LaporanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LaporanToolStripMenuItem.Click
-        Laporan_Pendapatan_Parkir.Show()
-        Me.Hide()
-    End Sub
-
     Private Sub btnKeluar_Click(sender As Object, e As EventArgs)
         frmLogin.Show()
         Me.Hide()
     End Sub
+
+
 End Class
