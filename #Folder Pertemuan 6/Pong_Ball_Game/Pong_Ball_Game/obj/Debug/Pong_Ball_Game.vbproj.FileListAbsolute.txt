@@ -1,0 +1,12 @@
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\bin\Debug\Pong_Ball_Game.exe.config
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\bin\Debug\Pong_Ball_Game.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\bin\Debug\Pong_Ball_Game.pdb
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\bin\Debug\Pong_Ball_Game.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\obj\Debug\Pong_Ball_Game.vbproj.AssemblyReference.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\obj\Debug\Pong_Ball_Game.Form1.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\obj\Debug\Pong_Ball_Game.Resources.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\obj\Debug\Pong_Ball_Game.vbproj.GenerateResource.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\obj\Debug\Pong_Ball_Game.vbproj.CoreCompileInputs.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\obj\Debug\Pong_Ball_Game.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\obj\Debug\Pong_Ball_Game.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\Github Individu\#Folder Pertemuan 6\Pong_Ball_Game\Pong_Ball_Game\obj\Debug\Pong_Ball_Game.pdb

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmUtama
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,23 +20,12 @@ Partial Class frmUtama
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.lblTamplianPlat = New System.Windows.Forms.Label()
-        Me.lblNomorPlat = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.lblJenis = New System.Windows.Forms.Label()
-        Me.cbJenis = New System.Windows.Forms.ComboBox()
-        Me.btnMasuk = New System.Windows.Forms.Button()
-        Me.btnKeluar = New System.Windows.Forms.Button()
-        Me.lblBiayaParkir = New System.Windows.Forms.Label()
-        Me.lblShowBiaya = New System.Windows.Forms.Label()
-        Me.lblKendaraanParkir = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.lblInformasi = New System.Windows.Forms.Label()
-        Me.lblTanggal = New System.Windows.Forms.Label()
-        Me.lblJam = New System.Windows.Forms.Label()
-        Me.lblJenisKendaraan = New System.Windows.Forms.Label()
+        Me.components = New System.ComponentModel.Container()
+        Me.lblInfoUser = New System.Windows.Forms.Label()
+        Me.lblTgl = New System.Windows.Forms.Label()
+        Me.lblJmlKendaraan = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.SistemToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AturProfilToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -47,140 +36,61 @@ Partial Class frmUtama
         Me.BantuanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BantuanToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TentangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlPlat = New System.Windows.Forms.Panel()
+        Me.lblPlat = New System.Windows.Forms.Label()
+        Me.pnlHarga = New System.Windows.Forms.Panel()
+        Me.lblHarga = New System.Windows.Forms.Label()
+        Me.pnlInput = New System.Windows.Forms.Panel()
+        Me.lblInfoJenis = New System.Windows.Forms.Label()
+        Me.lblInfo2 = New System.Windows.Forms.Label()
+        Me.lblJenis = New System.Windows.Forms.Label()
+        Me.lblInputPlat = New System.Windows.Forms.Label()
+        Me.txtNoPlat = New System.Windows.Forms.TextBox()
+        Me.pnlGrid = New System.Windows.Forms.Panel()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.ColNoPlat = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ColMasuk = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ColKeluar = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ColHarga = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ColJenis = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
+        Me.pnlPlat.SuspendLayout()
+        Me.pnlHarga.SuspendLayout()
+        Me.pnlInput.SuspendLayout()
+        Me.pnlGrid.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'lblTamplianPlat
+        'lblInfoUser
         '
-        Me.lblTamplianPlat.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.lblTamplianPlat.Location = New System.Drawing.Point(13, 39)
-        Me.lblTamplianPlat.Name = "lblTamplianPlat"
-        Me.lblTamplianPlat.Size = New System.Drawing.Size(557, 117)
-        Me.lblTamplianPlat.TabIndex = 3
+        Me.lblInfoUser.AutoSize = True
+        Me.lblInfoUser.Location = New System.Drawing.Point(12, 440)
+        Me.lblInfoUser.Name = "lblInfoUser"
+        Me.lblInfoUser.Size = New System.Drawing.Size(79, 20)
+        Me.lblInfoUser.TabIndex = 14
+        Me.lblInfoUser.Text = "Informasi:"
         '
-        'lblNomorPlat
+        'lblTgl
         '
-        Me.lblNomorPlat.AutoSize = True
-        Me.lblNomorPlat.Location = New System.Drawing.Point(13, 167)
-        Me.lblNomorPlat.Name = "lblNomorPlat"
-        Me.lblNomorPlat.Size = New System.Drawing.Size(91, 20)
-        Me.lblNomorPlat.TabIndex = 4
-        Me.lblNomorPlat.Text = "Nomor Plat:"
+        Me.lblTgl.AutoSize = True
+        Me.lblTgl.Location = New System.Drawing.Point(12, 479)
+        Me.lblTgl.Name = "lblTgl"
+        Me.lblTgl.Size = New System.Drawing.Size(70, 20)
+        Me.lblTgl.TabIndex = 15
+        Me.lblTgl.Text = "Tanggal:"
         '
-        'TextBox1
+        'lblJmlKendaraan
         '
-        Me.TextBox1.Location = New System.Drawing.Point(110, 167)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(170, 26)
-        Me.TextBox1.TabIndex = 5
-        '
-        'lblJenis
-        '
-        Me.lblJenis.AutoSize = True
-        Me.lblJenis.Location = New System.Drawing.Point(12, 207)
-        Me.lblJenis.Name = "lblJenis"
-        Me.lblJenis.Size = New System.Drawing.Size(50, 20)
-        Me.lblJenis.TabIndex = 6
-        Me.lblJenis.Text = "Jenis:"
-        '
-        'cbJenis
-        '
-        Me.cbJenis.FormattingEnabled = True
-        Me.cbJenis.Location = New System.Drawing.Point(110, 207)
-        Me.cbJenis.Name = "cbJenis"
-        Me.cbJenis.Size = New System.Drawing.Size(121, 28)
-        Me.cbJenis.TabIndex = 7
-        '
-        'btnMasuk
-        '
-        Me.btnMasuk.Location = New System.Drawing.Point(124, 241)
-        Me.btnMasuk.Name = "btnMasuk"
-        Me.btnMasuk.Size = New System.Drawing.Size(74, 54)
-        Me.btnMasuk.TabIndex = 8
-        Me.btnMasuk.Text = "Masuk"
-        Me.btnMasuk.UseVisualStyleBackColor = True
-        '
-        'btnKeluar
-        '
-        Me.btnKeluar.Location = New System.Drawing.Point(204, 241)
-        Me.btnKeluar.Name = "btnKeluar"
-        Me.btnKeluar.Size = New System.Drawing.Size(74, 54)
-        Me.btnKeluar.TabIndex = 9
-        Me.btnKeluar.Text = "keluar"
-        Me.btnKeluar.UseVisualStyleBackColor = True
-        '
-        'lblBiayaParkir
-        '
-        Me.lblBiayaParkir.AutoSize = True
-        Me.lblBiayaParkir.Location = New System.Drawing.Point(12, 308)
-        Me.lblBiayaParkir.Name = "lblBiayaParkir"
-        Me.lblBiayaParkir.Size = New System.Drawing.Size(92, 20)
-        Me.lblBiayaParkir.TabIndex = 10
-        Me.lblBiayaParkir.Text = "Biaya Parkir"
-        '
-        'lblShowBiaya
-        '
-        Me.lblShowBiaya.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.lblShowBiaya.Location = New System.Drawing.Point(106, 308)
-        Me.lblShowBiaya.Name = "lblShowBiaya"
-        Me.lblShowBiaya.Size = New System.Drawing.Size(174, 80)
-        Me.lblShowBiaya.TabIndex = 11
-        '
-        'lblKendaraanParkir
-        '
-        Me.lblKendaraanParkir.AutoSize = True
-        Me.lblKendaraanParkir.Location = New System.Drawing.Point(319, 167)
-        Me.lblKendaraanParkir.Name = "lblKendaraanParkir"
-        Me.lblKendaraanParkir.Size = New System.Drawing.Size(229, 20)
-        Me.lblKendaraanParkir.TabIndex = 12
-        Me.lblKendaraanParkir.Text = "Kendaraan yang sedang parkir:"
-        '
-        'DataGridView1
-        '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(323, 199)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowHeadersWidth = 62
-        Me.DataGridView1.RowTemplate.Height = 28
-        Me.DataGridView1.Size = New System.Drawing.Size(247, 245)
-        Me.DataGridView1.TabIndex = 13
-        '
-        'lblInformasi
-        '
-        Me.lblInformasi.AutoSize = True
-        Me.lblInformasi.Location = New System.Drawing.Point(12, 440)
-        Me.lblInformasi.Name = "lblInformasi"
-        Me.lblInformasi.Size = New System.Drawing.Size(79, 20)
-        Me.lblInformasi.TabIndex = 14
-        Me.lblInformasi.Text = "Informasi:"
-        '
-        'lblTanggal
-        '
-        Me.lblTanggal.AutoSize = True
-        Me.lblTanggal.Location = New System.Drawing.Point(12, 479)
-        Me.lblTanggal.Name = "lblTanggal"
-        Me.lblTanggal.Size = New System.Drawing.Size(156, 20)
-        Me.lblTanggal.TabIndex = 15
-        Me.lblTanggal.Text = "Tanggal: 12-34-5678"
-        '
-        'lblJam
-        '
-        Me.lblJam.AutoSize = True
-        Me.lblJam.Location = New System.Drawing.Point(199, 479)
-        Me.lblJam.Name = "lblJam"
-        Me.lblJam.Size = New System.Drawing.Size(109, 20)
-        Me.lblJam.TabIndex = 16
-        Me.lblJam.Text = "Jam: 00:00:00"
-        '
-        'lblJenisKendaraan
-        '
-        Me.lblJenisKendaraan.AutoSize = True
-        Me.lblJenisKendaraan.Location = New System.Drawing.Point(13, 535)
-        Me.lblJenisKendaraan.Name = "lblJenisKendaraan"
-        Me.lblJenisKendaraan.Size = New System.Drawing.Size(316, 20)
-        Me.lblJenisKendaraan.TabIndex = 17
-        Me.lblJenisKendaraan.Text = "O Motor, O Mobil, O Taksi, O Spd, O bis/truk"
+        Me.lblJmlKendaraan.AutoSize = True
+        Me.lblJmlKendaraan.Location = New System.Drawing.Point(12, 513)
+        Me.lblJmlKendaraan.Name = "lblJmlKendaraan"
+        Me.lblJmlKendaraan.Size = New System.Drawing.Size(316, 20)
+        Me.lblJmlKendaraan.TabIndex = 17
+        Me.lblJmlKendaraan.Text = "O Motor, O Mobil, O Taksi, O Spd, O bis/truk"
         '
         'MenuStrip1
         '
@@ -189,7 +99,7 @@ Partial Class frmUtama
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SistemToolStripMenuItem, Me.AdminToolStripMenuItem, Me.BantuanToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(639, 33)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1114, 33)
         Me.MenuStrip1.TabIndex = 18
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -203,13 +113,13 @@ Partial Class frmUtama
         'AturProfilToolStripMenuItem
         '
         Me.AturProfilToolStripMenuItem.Name = "AturProfilToolStripMenuItem"
-        Me.AturProfilToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
+        Me.AturProfilToolStripMenuItem.Size = New System.Drawing.Size(194, 34)
         Me.AturProfilToolStripMenuItem.Text = "Atur Profil"
         '
         'LogOutToolStripMenuItem
         '
         Me.LogOutToolStripMenuItem.Name = "LogOutToolStripMenuItem"
-        Me.LogOutToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
+        Me.LogOutToolStripMenuItem.Size = New System.Drawing.Size(194, 34)
         Me.LogOutToolStripMenuItem.Text = "Log Out"
         '
         'AdminToolStripMenuItem
@@ -222,13 +132,13 @@ Partial Class frmUtama
         'LanggananToolStripMenuItem
         '
         Me.LanggananToolStripMenuItem.Name = "LanggananToolStripMenuItem"
-        Me.LanggananToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
+        Me.LanggananToolStripMenuItem.Size = New System.Drawing.Size(201, 34)
         Me.LanggananToolStripMenuItem.Text = "Langganan"
         '
         'LaporanToolStripMenuItem
         '
         Me.LaporanToolStripMenuItem.Name = "LaporanToolStripMenuItem"
-        Me.LaporanToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
+        Me.LaporanToolStripMenuItem.Size = New System.Drawing.Size(201, 34)
         Me.LaporanToolStripMenuItem.Text = "Laporan"
         '
         'BantuanToolStripMenuItem
@@ -241,61 +151,222 @@ Partial Class frmUtama
         'BantuanToolStripMenuItem1
         '
         Me.BantuanToolStripMenuItem1.Name = "BantuanToolStripMenuItem1"
-        Me.BantuanToolStripMenuItem1.Size = New System.Drawing.Size(270, 34)
+        Me.BantuanToolStripMenuItem1.Size = New System.Drawing.Size(178, 34)
         Me.BantuanToolStripMenuItem1.Text = "Bantuan"
         '
         'TentangToolStripMenuItem
         '
         Me.TentangToolStripMenuItem.Name = "TentangToolStripMenuItem"
-        Me.TentangToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
+        Me.TentangToolStripMenuItem.Size = New System.Drawing.Size(178, 34)
         Me.TentangToolStripMenuItem.Text = "Tentang"
         '
-        'Utama
+        'pnlPlat
+        '
+        Me.pnlPlat.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.pnlPlat.Controls.Add(Me.lblPlat)
+        Me.pnlPlat.Dock = System.Windows.Forms.DockStyle.Top
+        Me.pnlPlat.Location = New System.Drawing.Point(0, 33)
+        Me.pnlPlat.Name = "pnlPlat"
+        Me.pnlPlat.Size = New System.Drawing.Size(1114, 182)
+        Me.pnlPlat.TabIndex = 19
+        '
+        'lblPlat
+        '
+        Me.lblPlat.AutoSize = True
+        Me.lblPlat.Font = New System.Drawing.Font("Microsoft Sans Serif", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlat.Location = New System.Drawing.Point(4, 13)
+        Me.lblPlat.Name = "lblPlat"
+        Me.lblPlat.Size = New System.Drawing.Size(859, 163)
+        Me.lblPlat.TabIndex = 22
+        Me.lblPlat.Text = "AB 1234 XY"
+        '
+        'pnlHarga
+        '
+        Me.pnlHarga.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.pnlHarga.Controls.Add(Me.lblHarga)
+        Me.pnlHarga.Location = New System.Drawing.Point(0, 221)
+        Me.pnlHarga.Name = "pnlHarga"
+        Me.pnlHarga.Size = New System.Drawing.Size(317, 97)
+        Me.pnlHarga.TabIndex = 20
+        '
+        'lblHarga
+        '
+        Me.lblHarga.AutoSize = True
+        Me.lblHarga.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHarga.Location = New System.Drawing.Point(10, 22)
+        Me.lblHarga.Name = "lblHarga"
+        Me.lblHarga.Size = New System.Drawing.Size(93, 52)
+        Me.lblHarga.TabIndex = 23
+        Me.lblHarga.Text = "Rp."
+        '
+        'pnlInput
+        '
+        Me.pnlInput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.pnlInput.Controls.Add(Me.lblInfoJenis)
+        Me.pnlInput.Controls.Add(Me.lblInfo2)
+        Me.pnlInput.Controls.Add(Me.lblJenis)
+        Me.pnlInput.Controls.Add(Me.lblInputPlat)
+        Me.pnlInput.Controls.Add(Me.txtNoPlat)
+        Me.pnlInput.Location = New System.Drawing.Point(0, 324)
+        Me.pnlInput.Name = "pnlInput"
+        Me.pnlInput.Size = New System.Drawing.Size(317, 113)
+        Me.pnlInput.TabIndex = 21
+        '
+        'lblInfoJenis
+        '
+        Me.lblInfoJenis.AutoSize = True
+        Me.lblInfoJenis.Location = New System.Drawing.Point(258, 11)
+        Me.lblInfoJenis.Name = "lblInfoJenis"
+        Me.lblInfoJenis.Size = New System.Drawing.Size(0, 20)
+        Me.lblInfoJenis.TabIndex = 3
+        '
+        'lblInfo2
+        '
+        Me.lblInfo2.AutoSize = True
+        Me.lblInfo2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInfo2.Location = New System.Drawing.Point(3, 86)
+        Me.lblInfo2.Name = "lblInfo2"
+        Me.lblInfo2.Size = New System.Drawing.Size(223, 17)
+        Me.lblInfo2.TabIndex = 0
+        Me.lblInfo2.Text = "Tekan Enter untuk Masuk / Keluar"
+        '
+        'lblJenis
+        '
+        Me.lblJenis.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblJenis.Location = New System.Drawing.Point(3, 49)
+        Me.lblJenis.Name = "lblJenis"
+        Me.lblJenis.Size = New System.Drawing.Size(307, 46)
+        Me.lblJenis.TabIndex = 2
+        Me.lblJenis.Text = "F1 - Motor, F2 - Mobil, F3 - Taksi, F4 - Sepeda, F5 - Bis/Truk"
+        '
+        'lblInputPlat
+        '
+        Me.lblInputPlat.AutoSize = True
+        Me.lblInputPlat.Location = New System.Drawing.Point(3, 11)
+        Me.lblInputPlat.Name = "lblInputPlat"
+        Me.lblInputPlat.Size = New System.Drawing.Size(81, 20)
+        Me.lblInputPlat.TabIndex = 1
+        Me.lblInputPlat.Text = "Input Plat:"
+        '
+        'txtNoPlat
+        '
+        Me.txtNoPlat.Location = New System.Drawing.Point(90, 11)
+        Me.txtNoPlat.Name = "txtNoPlat"
+        Me.txtNoPlat.Size = New System.Drawing.Size(190, 26)
+        Me.txtNoPlat.TabIndex = 0
+        '
+        'pnlGrid
+        '
+        Me.pnlGrid.AutoScroll = True
+        Me.pnlGrid.Controls.Add(Me.DataGridView1)
+        Me.pnlGrid.Location = New System.Drawing.Point(323, 221)
+        Me.pnlGrid.Name = "pnlGrid"
+        Me.pnlGrid.Size = New System.Drawing.Size(791, 278)
+        Me.pnlGrid.TabIndex = 22
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ColNoPlat, Me.ColMasuk, Me.ColKeluar, Me.ColHarga, Me.ColJenis, Me.Column1})
+        Me.DataGridView1.ContextMenuStrip = Me.ContextMenuStrip1
+        Me.DataGridView1.Location = New System.Drawing.Point(1, 4)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowHeadersWidth = 62
+        Me.DataGridView1.RowTemplate.Height = 28
+        Me.DataGridView1.Size = New System.Drawing.Size(787, 271)
+        Me.DataGridView1.TabIndex = 0
+        '
+        'ColNoPlat
+        '
+        Me.ColNoPlat.HeaderText = "No Plat"
+        Me.ColNoPlat.MinimumWidth = 8
+        Me.ColNoPlat.Name = "ColNoPlat"
+        Me.ColNoPlat.Width = 150
+        '
+        'ColMasuk
+        '
+        Me.ColMasuk.HeaderText = "Masuk"
+        Me.ColMasuk.MinimumWidth = 8
+        Me.ColMasuk.Name = "ColMasuk"
+        Me.ColMasuk.Width = 150
+        '
+        'ColKeluar
+        '
+        Me.ColKeluar.HeaderText = "Keluar"
+        Me.ColKeluar.MinimumWidth = 8
+        Me.ColKeluar.Name = "ColKeluar"
+        Me.ColKeluar.Width = 150
+        '
+        'ColHarga
+        '
+        Me.ColHarga.HeaderText = "Harga"
+        Me.ColHarga.MinimumWidth = 8
+        Me.ColHarga.Name = "ColHarga"
+        Me.ColHarga.Width = 150
+        '
+        'ColJenis
+        '
+        Me.ColJenis.HeaderText = "Jenis"
+        Me.ColJenis.MinimumWidth = 8
+        Me.ColJenis.Name = "ColJenis"
+        Me.ColJenis.Width = 150
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "id"
+        Me.Column1.MinimumWidth = 8
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        Me.Column1.Visible = False
+        Me.Column1.Width = 150
+        '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1})
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(135, 36)
+        '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(134, 32)
+        Me.ToolStripMenuItem1.Text = "Delete"
+        '
+        'frmUtama
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(639, 564)
-        Me.Controls.Add(Me.lblJenisKendaraan)
-        Me.Controls.Add(Me.lblJam)
-        Me.Controls.Add(Me.lblTanggal)
-        Me.Controls.Add(Me.lblInformasi)
-        Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.lblKendaraanParkir)
-        Me.Controls.Add(Me.lblShowBiaya)
-        Me.Controls.Add(Me.lblBiayaParkir)
-        Me.Controls.Add(Me.btnKeluar)
-        Me.Controls.Add(Me.btnMasuk)
-        Me.Controls.Add(Me.cbJenis)
-        Me.Controls.Add(Me.lblJenis)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.lblNomorPlat)
-        Me.Controls.Add(Me.lblTamplianPlat)
+        Me.ClientSize = New System.Drawing.Size(1114, 564)
+        Me.Controls.Add(Me.pnlGrid)
+        Me.Controls.Add(Me.pnlInput)
+        Me.Controls.Add(Me.pnlHarga)
+        Me.Controls.Add(Me.pnlPlat)
+        Me.Controls.Add(Me.lblJmlKendaraan)
+        Me.Controls.Add(Me.lblTgl)
+        Me.Controls.Add(Me.lblInfoUser)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Name = "Utama"
+        Me.Name = "frmUtama"
         Me.Text = "Utama"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.pnlPlat.ResumeLayout(False)
+        Me.pnlPlat.PerformLayout()
+        Me.pnlHarga.ResumeLayout(False)
+        Me.pnlHarga.PerformLayout()
+        Me.pnlInput.ResumeLayout(False)
+        Me.pnlInput.PerformLayout()
+        Me.pnlGrid.ResumeLayout(False)
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ContextMenuStrip1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents lblTamplianPlat As Label
-    Friend WithEvents lblNomorPlat As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents lblJenis As Label
-    Friend WithEvents cbJenis As ComboBox
-    Friend WithEvents btnMasuk As Button
-    Friend WithEvents btnKeluar As Button
-    Friend WithEvents lblBiayaParkir As Label
-    Friend WithEvents lblShowBiaya As Label
-    Friend WithEvents lblKendaraanParkir As Label
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents lblInformasi As Label
-    Friend WithEvents lblTanggal As Label
-    Friend WithEvents lblJam As Label
-    Friend WithEvents lblJenisKendaraan As Label
+    Friend WithEvents lblInfoUser As Label
+    Friend WithEvents lblTgl As Label
+    Friend WithEvents lblJmlKendaraan As Label
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents SistemToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AturProfilToolStripMenuItem As ToolStripMenuItem
@@ -306,4 +377,24 @@ Partial Class frmUtama
     Friend WithEvents BantuanToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BantuanToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents TentangToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents pnlPlat As Panel
+    Friend WithEvents pnlHarga As Panel
+    Friend WithEvents pnlInput As Panel
+    Friend WithEvents lblPlat As Label
+    Friend WithEvents lblHarga As Label
+    Friend WithEvents pnlGrid As Panel
+    Friend WithEvents lblJenis As Label
+    Friend WithEvents lblInputPlat As Label
+    Friend WithEvents txtNoPlat As TextBox
+    Friend WithEvents lblInfo2 As Label
+    Friend WithEvents lblInfoJenis As Label
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents ColNoPlat As DataGridViewTextBoxColumn
+    Friend WithEvents ColMasuk As DataGridViewTextBoxColumn
+    Friend WithEvents ColKeluar As DataGridViewTextBoxColumn
+    Friend WithEvents ColHarga As DataGridViewTextBoxColumn
+    Friend WithEvents ColJenis As DataGridViewTextBoxColumn
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
+    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
 End Class

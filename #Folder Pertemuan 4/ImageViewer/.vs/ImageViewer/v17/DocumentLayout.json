@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B06A1BDA-6ADB-4258-9507-C128F10BB78B}|ImageViewer\\ImageViewer.vbproj|d:\\kuliah\\sem4\\pemrograman dekstop\\github individu\\#folder pertemuan 4\\imageviewer\\imageviewer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{B06A1BDA-6ADB-4258-9507-C128F10BB78B}|ImageViewer\\ImageViewer.vbproj|solutionrelative:imageviewer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B06A1BDA-6ADB-4258-9507-C128F10BB78B}|ImageViewer\\ImageViewer.vbproj|d:\\kuliah\\sem4\\pemrograman dekstop\\github individu\\#folder pertemuan 4\\imageviewer\\imageviewer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B06A1BDA-6ADB-4258-9507-C128F10BB78B}|ImageViewer\\ImageViewer.vbproj|solutionrelative:imageviewer\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,12 +26,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\#Folder Pertemuan 4\\ImageViewer\\ImageViewer\\Form1.vb",
+              "RelativeDocumentMoniker": "ImageViewer\\Form1.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\#Folder Pertemuan 4\\ImageViewer\\ImageViewer\\Form1.vb*",
+              "RelativeToolTip": "ImageViewer\\Form1.vb*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-10T19:24:11.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\#Folder Pertemuan 4\\ImageViewer\\ImageViewer\\Form1.vb",
               "RelativeDocumentMoniker": "ImageViewer\\Form1.vb",
-              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\#Folder Pertemuan 4\\ImageViewer\\ImageViewer\\Form1.vb [Design]",
-              "RelativeToolTip": "ImageViewer\\Form1.vb [Design]",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\Github Individu\\#Folder Pertemuan 4\\ImageViewer\\ImageViewer\\Form1.vb [Design]*",
+              "RelativeToolTip": "ImageViewer\\Form1.vb [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-03-01T07:48:29.596Z",
               "EditorCaption": " [Design]"

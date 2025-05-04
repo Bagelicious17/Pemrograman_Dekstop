@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\parkirapp\\frmlaporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmlaporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\parkirapp\\frmutama.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmutama.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|d:\\kuliah\\sem4\\pemrograman dekstop\\parkirapp\\parkirapp\\parkirapp\\frmlaporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmlaporan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\parkirapp\\moduledb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\moduledb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\parkirapp\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|d:\\kuliah\\sem4\\pemrograman dekstop\\parkirapp\\parkirapp\\parkirapp\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\parkirapp\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\parkirapp\\frmlangganan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmlangganan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\parkirapp\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\parkirapp\\frmutama.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmutama.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\parkirapp\\frmprofil.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmprofil.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\parkirapp\\frmprofil.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmprofil.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\parkirapp\\frmlangganan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{86D380AC-6305-46D4-A75B-B157CFC29796}|ParkirApp\\ParkirApp.vbproj|solutionrelative:parkirapp\\frmlangganan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Report1.rdlc [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\Report1.rdlc",
+              "RelativeDocumentMoniker": "ParkirApp\\Report1.rdlc",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\Report1.rdlc [Design]",
+              "RelativeToolTip": "ParkirApp\\Report1.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-05-04T03:37:09.276Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmLaporan.vb [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLaporan.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmLaporan.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLaporan.vb [Design]",
+              "RelativeToolTip": "ParkirApp\\frmLaporan.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-29T01:44:56.757Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataSet1.xsd",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\DataSet1.xsd",
+              "RelativeDocumentMoniker": "ParkirApp\\DataSet1.xsd",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\DataSet1.xsd",
+              "RelativeToolTip": "ParkirApp\\DataSet1.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-05-02T04:25:32.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLaporan.vb",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLaporan.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmLaporan.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLaporan.vb",
+              "RelativeToolTip": "ParkirApp\\frmLaporan.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-02T04:17:01.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmProfil.vb",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmProfil.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmProfil.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmProfil.vb",
+              "RelativeToolTip": "ParkirApp\\frmProfil.vb",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvy8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-02T04:15:41.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmLangganan.vb",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLangganan.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmLangganan.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLangganan.vb",
+              "RelativeToolTip": "ParkirApp\\frmLangganan.vb",
+              "ViewState": "AgIAAMIAAAAAAAAAAAD4v9AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-02T04:13:27.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmLogin.vb",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLogin.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmLogin.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLogin.vb",
+              "RelativeToolTip": "ParkirApp\\frmLogin.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-29T01:16:06.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmUtama.vb",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmUtama.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmUtama.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmUtama.vb",
+              "RelativeToolTip": "ParkirApp\\frmUtama.vb",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAWwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-29T01:18:43.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModuleDB.vb",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\ModuleDB.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\ModuleDB.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\ModuleDB.vb",
+              "RelativeToolTip": "ParkirApp\\ModuleDB.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-29T01:08:28.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmLangganan.vb [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLangganan.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmLangganan.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLangganan.vb [Design]",
+              "RelativeToolTip": "ParkirApp\\frmLangganan.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-29T01:03:07.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmUtama.vb [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmUtama.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmUtama.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmUtama.vb [Design]",
+              "RelativeToolTip": "ParkirApp\\frmUtama.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-29T01:03:05.923Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmProfil.vb [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmProfil.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmProfil.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmProfil.vb [Design]",
+              "RelativeToolTip": "ParkirApp\\frmProfil.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-29T01:03:04.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmLogin.vb [Design]",
+              "DocumentMoniker": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLogin.vb",
+              "RelativeDocumentMoniker": "ParkirApp\\frmLogin.vb",
+              "ToolTip": "D:\\Kuliah\\Sem4\\Pemrograman Dekstop\\ParkirApp\\ParkirApp\\ParkirApp\\frmLogin.vb [Design]",
+              "RelativeToolTip": "ParkirApp\\frmLogin.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-29T01:03:02.151Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

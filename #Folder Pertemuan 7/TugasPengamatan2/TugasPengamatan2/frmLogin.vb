@@ -17,19 +17,21 @@ Public Class frmLogin
             myCommand.CommandText = sql
         End If
         myDataReader = myCommand.ExecuteReader
-        If myDataReader.HasRows Then
-            myDataReader.Close()
-            pengguna = txtUsername.Text
-            ppassword = txtPassword.Text
 
+        myDataReader.Close()
+        pengguna = txtUsername.Text
+        ppassword = txtPassword.Text
+        frmUtama.lblInfoUser.Text = "Informasi - (User: " & pengguna & ")"
+        frmUtama.lblTgl.Text = "Tangggal : " & Now.Day & " - " & Now.Month & " - " & Now.Year
+        frmUtama.RefreshGrid()
+        frmUtama.HitungJumlah()
+        frmUtama.Show()
+        Me.Hide()
 
-            Me.Hide()
-        Else
-            MsgBox("Username / Password salah!")
-        End If
         If myDataReader.IsClosed = False Then
             myDataReader.Close()
         End If
+
 
     End Sub
 
@@ -39,5 +41,9 @@ Public Class frmLogin
 
     Private Sub frmLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         CreateConnection()
+    End Sub
+
+    Private Sub txtUsername_TextChanged(sender As Object, e As EventArgs) Handles txtUsername.TextChanged
+
     End Sub
 End Class
