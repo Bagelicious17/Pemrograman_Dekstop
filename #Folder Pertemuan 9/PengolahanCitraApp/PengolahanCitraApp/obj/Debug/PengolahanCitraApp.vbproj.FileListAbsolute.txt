@@ -1,0 +1,13 @@
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\obj\Debug\PengolahanCitraApp.vbproj.AssemblyReference.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\obj\Debug\PengolahanCitraApp.frmUtama.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\obj\Debug\PengolahanCitraApp.Resources.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\obj\Debug\PengolahanCitraApp.vbproj.GenerateResource.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\obj\Debug\PengolahanCitraApp.vbproj.CoreCompileInputs.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\bin\Debug\PengolahanCitraApp.exe.config
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\bin\Debug\PengolahanCitraApp.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\bin\Debug\PengolahanCitraApp.pdb
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\bin\Debug\PengolahanCitraApp.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\obj\Debug\PengolahanCitraApp.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\obj\Debug\PengolahanCitraApp.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\obj\Debug\PengolahanCitraApp.pdb
+D:\Kuliah\Sem4\Pemrograman Dekstop\PengolahanCitraApp\PengolahanCitraApp\obj\Debug\PengolahanCitraApp.frmHistogram.resources
