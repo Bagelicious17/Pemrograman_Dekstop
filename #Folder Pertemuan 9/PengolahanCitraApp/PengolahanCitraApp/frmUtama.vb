@@ -1,5 +1,8 @@
-﻿Public Class frmUtama
+﻿Imports System.Reflection.Emit
+
+Public Class frmUtama
     Dim namafile As String
+    Dim originalImage As Bitmap
     Private Sub BukaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BukaToolStripMenuItem.Click
         Dim openFileDialog1 As New OpenFileDialog()
         openFileDialog1.InitialDirectory = "C:\Users\ASUS\Pictures"
@@ -9,6 +12,12 @@
         If openFileDialog1.ShowDialog() = System.Windows.Forms.DialogResult.OK Then
             PictureBox1.Image = Image.FromFile(openFileDialog1.FileName)
             namafile = openFileDialog1.FileName
+            ' Store the original image when loading a new one
+            originalImage = New Bitmap(PictureBox1.Image)
+            ' Reset trackbars to default position (middle)
+            TrackBar1.Value = 50
+            TrackBar2.Value = 50
+            TrackBar3.Value = 50
         End If
     End Sub
 
@@ -274,5 +283,209 @@
             Next
         Next
         PictureBox1.Image = bmp
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
+
+    Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles TrackBar1.Scroll
+        ApplyColorBalance()
+    End Sub
+
+    Private Sub TrackBar2_Scroll(sender As Object, e As EventArgs) Handles TrackBar2.Scroll
+        ApplyColorBalance()
+    End Sub
+
+    Private Sub TrackBar3_Scroll(sender As Object, e As EventArgs) Handles TrackBar3.Scroll
+        ApplyColorBalance()
+    End Sub
+
+    Private Sub ApplyColorBalance()
+        ' If there's no original image, do nothing
+        If originalImage Is Nothing Then
+            MessageBox.Show("Please load an image first!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        End If
+
+        ' Start with the original image
+        Dim bmpOriginal As New Bitmap(originalImage)
+        Dim bmpBalanced As New Bitmap(bmpOriginal.Width, bmpOriginal.Height)
+
+        ' Get the balance values from trackbars (0-100)
+        Dim redBalance As Double = TrackBar1.Value / 100.0
+        Dim greenBalance As Double = TrackBar2.Value / 100.0
+        Dim blueBalance As Double = TrackBar3.Value / 100.0
+
+        For y As Integer = 0 To bmpOriginal.Height - 1
+            For x As Integer = 0 To bmpOriginal.Width - 1
+                Dim original As Color = bmpOriginal.GetPixel(x, y)
+
+                ' Calculate new color values
+                Dim r As Integer = CInt(original.R * (1 + redBalance))
+                Dim g As Integer = CInt(original.G * (1 + greenBalance))
+                Dim b As Integer = CInt(original.B * (1 + blueBalance))
+
+                ' Ensure values stay within valid range
+                If r > 255 Then r = 255
+                If g > 255 Then g = 255
+                If b > 255 Then b = 255
+
+                bmpBalanced.SetPixel(x, y, Color.FromArgb(r, g, b))
+            Next
+        Next
+
+        PictureBox1.Image = bmpBalanced
+    End Sub
+
+    Private Sub RonaMerahToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RonaMerahToolStripMenuItem.Click
+        ' If there's no original image, do nothing
+        If originalImage Is Nothing Then
+            MessageBox.Show("Please load an image first!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        End If
+
+        ' Start with the original image
+        Dim bmpOriginal As New Bitmap(originalImage)
+        Dim bmpBalanced As New Bitmap(bmpOriginal.Width, bmpOriginal.Height)
+
+        ' Get the balance values from trackbars (0-100)
+
+
+        For y As Integer = 0 To bmpOriginal.Height - 1
+            For x As Integer = 0 To bmpOriginal.Width - 1
+                Dim original As Color = bmpOriginal.GetPixel(x, y)
+
+                ' Calculate new color values
+                Dim r As Integer = CInt(original.R * 101)
+                Dim g As Integer = CInt(original.G * 1)
+                Dim b As Integer = CInt(original.B * 1)
+
+                ' Ensure values stay within valid range
+                If r > 255 Then r = 255
+                If g > 255 Then g = 255
+                If b > 255 Then b = 255
+
+                bmpBalanced.SetPixel(x, y, Color.FromArgb(r, g, b))
+            Next
+        Next
+
+        PictureBox1.Image = bmpBalanced
+    End Sub
+
+    Private Sub RonaHijauToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RonaHijauToolStripMenuItem.Click
+        If originalImage Is Nothing Then
+            MessageBox.Show("Please load an image first!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        End If
+
+        ' Start with the original image
+        Dim bmpOriginal As New Bitmap(originalImage)
+        Dim bmpBalanced As New Bitmap(bmpOriginal.Width, bmpOriginal.Height)
+
+        ' Get the balance values from trackbars (0-100)
+
+
+        For y As Integer = 0 To bmpOriginal.Height - 1
+            For x As Integer = 0 To bmpOriginal.Width - 1
+                Dim original As Color = bmpOriginal.GetPixel(x, y)
+
+                ' Calculate new color values
+                Dim r As Integer = CInt(original.R * 1)
+                Dim g As Integer = CInt(original.G * 101)
+                Dim b As Integer = CInt(original.B * 1)
+
+                ' Ensure values stay within valid range
+                If r > 255 Then r = 255
+                If g > 255 Then g = 255
+                If b > 255 Then b = 255
+
+                bmpBalanced.SetPixel(x, y, Color.FromArgb(r, g, b))
+            Next
+        Next
+
+        PictureBox1.Image = bmpBalanced
+    End Sub
+
+    Private Sub InversiWarnaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InversiWarnaToolStripMenuItem.Click
+        If PictureBox1.Image Is Nothing Then
+            MessageBox.Show("Please load an image first!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        End If
+
+        Dim bmp As New Bitmap(PictureBox1.Image)
+        For y As Integer = 0 To bmp.Height - 1
+            For x As Integer = 0 To bmp.Width - 1
+                Dim pixel As Color = bmp.GetPixel(x, y)
+                Dim inverted As Color = Color.FromArgb(255 - pixel.R, 255 - pixel.G, 255 - pixel.B)
+                bmp.SetPixel(x, y, inverted)
+            Next
+        Next
+        PictureBox1.Image = bmp
+    End Sub
+
+    Private Sub WatermarkToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles WatermarkToolStripMenuItem.Click
+        If PictureBox1.Image Is Nothing Then
+            MessageBox.Show("Please load an image first!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        End If
+
+        Dim bmp As New Bitmap(PictureBox1.Image)
+        Dim g As Graphics = Graphics.FromImage(bmp)
+        Dim watermarkText As String = "Tugas 3"
+        Dim font As New Font("Arial", 12, FontStyle.Bold)
+        Dim brush As New SolidBrush(Color.FromArgb(128, Color.White)) ' semi-transparent
+
+        Dim textSize As SizeF = g.MeasureString(watermarkText, font)
+        Dim xStep As Integer = CInt(textSize.Width) + 20
+        Dim yStep As Integer = CInt(textSize.Height) + 20
+
+        For y As Integer = 0 To bmp.Height Step yStep
+            For x As Integer = 0 To bmp.Width Step xStep
+                g.DrawString(watermarkText, font, brush, x, y)
+            Next
+        Next
+
+        g.Dispose()
+        PictureBox1.Image = bmp
+    End Sub
+
+    Private Sub RonaBiruToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RonaBiruToolStripMenuItem.Click
+        ' If there's no original image, do nothing
+        If originalImage Is Nothing Then
+            MessageBox.Show("Please load an image first!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        End If
+
+        ' Start with the original image
+        Dim bmpOriginal As New Bitmap(originalImage)
+        Dim bmpBalanced As New Bitmap(bmpOriginal.Width, bmpOriginal.Height)
+
+        ' Get the balance values from trackbars (0-100)
+
+
+        For y As Integer = 0 To bmpOriginal.Height - 1
+            For x As Integer = 0 To bmpOriginal.Width - 1
+                Dim original As Color = bmpOriginal.GetPixel(x, y)
+
+                ' Calculate new color values
+                Dim r As Integer = CInt(original.R * 1)
+                Dim g As Integer = CInt(original.G * 1)
+                Dim b As Integer = CInt(original.B * 101)
+
+                ' Ensure values stay within valid range
+                If r > 255 Then r = 255
+                If g > 255 Then g = 255
+                If b > 255 Then b = 255
+
+                bmpBalanced.SetPixel(x, y, Color.FromArgb(r, g, b))
+            Next
+        Next
+
+        PictureBox1.Image = bmpBalanced
+    End Sub
+
+    Private Sub HistogramBalokToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HistogramBalokToolStripMenuItem.Click
+        frmHistogramBalok.ShowDialog()
     End Sub
 End Class

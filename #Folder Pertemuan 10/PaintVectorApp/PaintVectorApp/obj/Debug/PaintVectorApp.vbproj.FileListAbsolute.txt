@@ -1,0 +1,14 @@
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\obj\Debug\PaintVectorApp.vbproj.AssemblyReference.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\obj\Debug\PaintVectorApp.frmUtama.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\obj\Debug\PaintVectorApp.Resources.resources
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\obj\Debug\PaintVectorApp.vbproj.GenerateResource.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\obj\Debug\PaintVectorApp.vbproj.CoreCompileInputs.cache
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\bin\Debug\PaintVectorApp.exe.config
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\bin\Debug\PaintVectorApp.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\bin\Debug\PaintVectorApp.pdb
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\bin\Debug\PaintVectorApp.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\obj\Debug\PaintVec.2B58AA11.Up2Date
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\obj\Debug\PaintVectorApp.exe
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\obj\Debug\PaintVectorApp.xml
+D:\Kuliah\Sem4\Pemrograman Dekstop\PaintVectorApp\PaintVectorApp\obj\Debug\PaintVectorApp.pdb
